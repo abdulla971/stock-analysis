@@ -28,7 +28,9 @@ Run times for the original code took 0.78 and 0.71 seconds.
 ![](Resources/Original/2018_runtime.png)
 
 Run times for the refactored code took around .15 seconds.
+
 ![](Resources/VBA_Challenge_2017.png)
+
 ![](Resources/VBA_Challenge_2018.png)
 
 The refactored code greatly decreased the runtimes of the VBA code and increased it efficiency (optimized it).
@@ -36,9 +38,11 @@ The refactored code greatly decreased the runtimes of the VBA code and increased
 ## What was the difference in the codes?
 
 There was nested for loops in the original code. That are included in the outer loop and furthermore it output the data for the current date which results in large number of iterations.
+
 ![](Resources/code_refactoring/original.png)
 
 Compared to the original code, the refactored code only has one loop and moving the output to a separate loop thus decreased the number of iterations significantly.
+
 ![](Resources/code_refactoring/refactored.png)
 
 # Summary
