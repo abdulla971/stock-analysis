@@ -36,10 +36,10 @@ The refactored code greatly decreased the runtimes of the VBA code and increased
 ## What was the difference in the codes?
 
 There was nested for loops in the original code. That are included in the outer loop and furthermore it output the data for the current date which results in large number of iterations.
-![](Resources/code_refactoring/original)
+![](Resources/code_refactoring/original.png)
 
 Compared to the original code, the refactored code only has one loop and moving the output to a separate loop thus decreased the number of iterations significantly.
-![](Resources/code_refactoring/refactored)
+![](Resources/code_refactoring/refactored.png)
 
 # Summary
 ## 1. What are the advantages or disadvantages of refactoring code?
